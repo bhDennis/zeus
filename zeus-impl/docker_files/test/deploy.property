@@ -1,0 +1,3 @@
+deploy.dir=/data/dockerfiles/ocs-api
+deploy.cmd=/root/whale/whale.py
+deploy.args=deploy --service_name=ocs-api --cluster_code=1002 --src_docker_file_path=/data/dockerfiles/ocs-api/ --instance_count=1
